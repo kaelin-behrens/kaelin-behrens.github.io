@@ -10,3 +10,39 @@
     z-index: -1;
   }
   
+  body {
+    font-size: 100%;
+    text-align: center;
+    font-family: 'Poiret One', sans-serif;
+    color: #c4b9a1;
+  }
+ 
+  .navigationbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+  }
+  
+  a {
+      text-decoration: none;
+      color: #bda675;
+      font-size: 1.2em;
+  }   
+
+  h1 { 
+    text-align: center;
+    font-family: 'Poiret One', sans-serif;
+    color: #bda675;
+    font-size: 2.5em;
+  }
+
+  p {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Poiret One', sans-serif;
+    color: #c4b9a1;
+  }
+
+  
