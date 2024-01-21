@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  <div class="background-ocean">
+      <video id="background-video" autoplay loop muted poster="../styles/assets/thedeepoceanstill.jpg">
+        <source src="../styles/assets/TheDeepOcean.mp4" type="video/mp4">
+      </video>
+  </div>
+  <style>
+    .textformat {
+padding-top: 1%;
+padding-inline: 10%;
+}
+</style>
+    </head>
+
+<body>
+  <nav class="navigationbar">
+    <a href="../index.html">Home</a>
+  </nav>
+  <div class="textformat">
+    <h1>Margin, Border, and Padding</h1>
+    <p>When talking about the layout of centent on a webpage there are three important aspects that will help determine 
+    how the content is formatted. These are the margin, border, and the padding, also known as the CSS Box Model. </p>
+    <p>Working our way from the content at the center out to the edge of the box, we can see that there is a layer around the content that makes up the padding.
+    This will determine the amount of space around the content itself.</p>
+    <img src="../styles/assets/box-model-css-padding.png">
+    <p>Next is the border. The border will go around the padding (and therefore around the content as well).</p>
+    <img src="../styles/assets/box-model-css-border.png">
+    <p>Finally we have the margin. The margin is the space around the border, and is transparent. Because it is around the border,
+    the margin will surround the padding and the content as well.</p>
+    <img src="../styles/assets/box-model-css-margin.png">
+    <p>Each of these values can be altered using CSS to create specific designs around your content, such as a round profile picture for example.</p>
+  </div>
+    </body>
+      </html>
